@@ -1,0 +1,45 @@
+body {
+  font-family: "soleil";
+  background-image: url(../images/background.png);
+  background-color: white;
+  color: black;
+  margin-top: -3%;
+  padding-bottom: 5%;}
+
+.item img {margin: auto;}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5em;
+  margin-top: 0;
+  text-align: center;}
+
+p {
+  font-size: 17px;
+  width: 95%;
+  max-width: 550px;
+  line-height: 1.55em;
+  margin: 20px auto;
+  font-weight: normal;
+  color: #333;}
+
+a, a:hover, a:visited {
+  color: rgb(247, 108, 203);
+  border-bottom: 1px solid rgb(247, 108, 203);
+  text-decoration: none;}
+
+img {
+  width:100%;
+  max-width: 750px;
+  margin: 0 auto;
+  display: block;
+  -webkit-box-shadow: 0 0px 10px white;
+          box-shadow: 0 0px 10px white;}
+
+.colophon {
+  font-size: 14px;
+  text-align: center;
+  opacity: .3;
+  margin: 0 auto;
+  padding-top: 2em;}
