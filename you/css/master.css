@@ -1,0 +1,178 @@
+body {
+  font-family: "soleil";
+  margin: 0;
+  /*margin-top: 1%;*/
+  background-color: #525252;}
+
+.main-container {
+  /*width: 95%;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;*/
+  padding: 0;}
+
+.poster-row {  
+  padding: 10% 0;}
+
+.poster-1 {
+  background: -webkit-linear-gradient(#eef3c2, #6f8582);
+  background: -o-linear-gradient(#eef3c2, #6f8582);
+  background: -moz-linear-gradient(#eef3c2, #6f8582);
+  background: linear-gradient(#eef3c2, #6f8582);}
+
+.poster-2 {
+  /*background: -webkit-linear-gradient(#35050E, #b07b65);
+  background: -o-linear-gradient(#35050E, #b07b65);
+  background: -moz-linear-gradient(#35050E, #b07b65);
+  background: linear-gradient(#35050E, #b07b65);*/
+
+background: -webkit-linear-gradient(#440746, #a71f1e);
+  background: -o-linear-gradient(#440746, #a71f1e);
+  background: -moz-linear-gradient(#440746, #a71f1e);
+  background: linear-gradient(#440746, #a71f1e);}
+
+.poster-row img{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: block;
+  -webkit-box-shadow: 0 5px 12px #000;
+          box-shadow: 0 5px 12px #000;}
+
+.quote-row {
+  background-color: #2d0206;}
+
+blockquote {
+  color: #F5D6C2;
+  margin: 0 auto;
+  text-align: center;
+  padding: 150px 0;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4em;}
+
+blockquote cite {
+  opacity: .6;
+  font-size: 30px;
+  font-weight: normal;}
+
+.imessage-row {
+  background-color: white;
+  padding: 100px 0;}
+
+.imessage-row img {
+  margin: 0 auto;
+  display: block; /* Google how to center images... */
+  width: 100%;
+  max-width: 418px;}
+
+.description-row {
+  background-color: #2d0206;
+  padding: 140px 0;}
+
+.e-row-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 650px;}
+
+.description-row a {
+  text-decoration: none;
+  border-bottom: 2px solid #F5D6C2;
+  color: #F5D6C2;}
+
+.description-row h2, .description-row h3, .description-row ol {
+  color: #F5D6C2;}
+
+.description-row h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin-bottom: 2em;}
+
+.description-row h3 {
+  color: #F5D6C2;
+  opacity: .5;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin-bottom: .5em;}
+
+.description-row ol {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.4em;
+  margin-left: -2.5em;
+  margin-top: 0;} /* Need to look up how to change/modify list style colors. How do you remove periods from numbered lists? */
+
+.description-row ol li {
+  margin-bottom: 1em;
+  padding-left: .5em;}
+
+/*.explanation-row ol {
+  list-style-type: none;
+  margin-left: 0;}
+
+.explanation-row ol > li {
+  counter-increment: customlistcounter;}
+
+.explanation-row ol > li:before {
+  content: counter(customlistcounter) " ";
+  float: left;
+  width: 3em;}
+
+.explanation-row ol:first-child {
+  counter-reset: customlistcounter;}*/
+
+.all-row {
+  background-color: #ccc;
+  padding: 140px 0;}
+
+.all-row h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 25px;
+  color: #2d0206;}
+
+.all-row img {
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 5px 12px #000;
+          box-shadow: 0 5px 12px #000;}
+
+.all-row .row-2 {
+  margin-top: 5%;}
+
+.poster-wrapper {
+  margin: auto;}
+
+.poster-wrapper-1 {
+  width: 862px;}
+
+.poster-wrapper-2 {
+  width: 574px;
+  margin-top: 60px;}
+
+.poster-wrapper img {
+  display:inline; 
+  margin: 0 30px;}
+
+.colophon-row {
+  background-color: #1a0103;}
+
+.colophon-row h4 {
+  text-align: center;
+  color: white;
+  opacity: .3;}
+
+@media (max-width: 700px) {
+    .poster-wrapper img {
+      display: block;
+      margin: 20px auto;}
+  
+    .poster-wrapper-1,
+    .poster-wrapper-2{
+      width: auto;
+      padding: 0;
+      margin: 0;}
+}
