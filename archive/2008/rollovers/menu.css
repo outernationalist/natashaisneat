@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+body {
+	margin: 0px;
+	background-color: #e7e1cb;}
+
+
+#nav {
+	background-color: #362c25;
+	width: 100%;
+	border-bottom: 1px solid #6b6256;}
+
+#nav h1 {
+	color: #e7e1cb;
+	font: 1.1em Arial, Helvetica, sans serif;
+	font-weight: 100;
+	padding: 15px 0px 10px 15px;}
+
+.home {
+	float: right;
+	padding-right: 30px;
+	width: 50px;
+	text-align: right;}
+	
+.home a, .home a:visited {
+	color: #c9b7aa;
+	font: 0.6em Trebuchet MS, Geneva, sans-serif;
+	text-decoration: none;
+	position: relative;
+	z-index: 100;}
+
+.home a:hover{
+	color: #fd773e;
+	z-index: 100;}
+
+
+
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/final_drop.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+
+
+.menu {	
+	font-size: 0.65em; 
+	height: 32px; 
+	position: relative;
+ 	z-index: 99;}
+
+.menu ul {
+	padding: 0;
+	margin: 0;
+	list-style-type:none;}
+
+.menu li {
+	float: left;	
+	position: relative;}
+
+/************ Top-level links ************/
+
+.menu a, .menu a:visited {
+ 	background: #362c25; 
+	border-left: 1px solid #705A4F; 
+	color: #987F6E; 
+	display: block;
+	font-family: Trebuchet MS, Geneva, sans-serif;
+	line-height: 29px;
+	text-decoration: none; 	
+	padding: 0px 15px 0px 15px;}
+
+/************ On-state ************/
+
+.menu a.on { 
+	color: #fefced;}
+	
+.menu a.first {	
+	border-left: #362C25;}
+	
+/************ Second-level background ************/
+
+.menu ul ul a.drop, .menu ul ul a.drop:visited {
+	background: url("images/nav_bg.png") #2c180a; }
+
+/************ Second-level hover ************/
+
+.menu ul ul a.drop:hover{
+	background: #573826;
+	color: #FFF;}
+
+.menu ul ul :hover > a.drop {
+	background: #573826;
+	color: #FFF;}
+
+/************ Second-level links ************/
+
+.menu ul ul a, .menu ul ul a:visited {
+	background: url("images/nav_bg.png"); 
+	border-width: 0px;	
+	border-top: 1px solid #573826;
+	color: #c9b7aa; 
+	height: auto;
+ 	line-height: 1em;
+	padding: 12px 12px 12px 25px;  
+	width: 100px;}
+
+.menu ul ul a.infolink, .menu ul ul a:visited.infolink {
+	background-color: #2c180a;
+	color:#c9b7aa;
+	padding: 6px 12px 10px 25px; }
+	
+.menu ul ul a.on, .menu ul ul a:visited.on {
+	color:#fefced;}
+
+/************ Top-level hover ************/
+
+.menu a:hover, .menu ul ul a:hover {
+	background: url("images/nav_bg.png") #2c180a;
+	color:#fefced; }
+
+.menu :hover > a, .menu ul ul :hover > a {
+	background: url("images/nav_bg.png") #2c180a;
+	color:#fefced;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu ul ul {
+	border: 0px;
+	height: 0;
+	left:0; 
+	position: absolute;
+	top: 29px;
+	visibility: hidden;}
+	
+.menu table {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	border-collapse: collapse;}
+
+.menu ul li:hover ul,
+.menu ul a:hover ul{
+	visibility:visible; }
+
+.menu ul :hover ul ul{
+	visibility:hidden;}
+
+.menu ul :hover ul :hover ul{ 
+	visibility:visible;}

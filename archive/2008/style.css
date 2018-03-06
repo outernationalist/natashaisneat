@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+body { background: #fefced; }
+
+#encompass, #symmetry_experiments img {
+	margin: 0px auto;}
+
+#header, #encompass, .container {
+	width: 504px;}
+
+#header, #encompass {
+	background-color: #fefced;
+	padding-bottom: 50px;}
+
+#header h1 {
+	color: #6d0000;
+	font: bold italic 1.7em Georgia;
+	padding-top: 45px;}
+
+#header h2 {
+	color: #aa7260;
+	font: normal 0.8em Trebuchet MS, Geneva, sans-serif;
+	padding-left: 0px;}
+
+/* ************************************ */
+
+#symmetry_experiments h1, #symmetry_experiments p, #symmetry_experiments p.view {
+	text-align: right;}
+
+#symmetry_experiments {
+	background-color: #f7efd4;
+	width: 504px;
+	padding-bottom: 30px;}
+
+#symmetry_experiments:hover {
+	background-color: #f4e9c9;}
+
+#symmetry_experiments img {
+	display: block;
+	padding-bottom: 17px;
+	padding-top: 11px;}
+
+#symmetry_experiments h1 {
+	color: #80263f;
+	font: italic 1.3em Times New Roman, Times, serif;
+	letter-spacing: 0.2em;
+	padding-right: 20px;}
+
+#symmetry_experiments p {
+	color: #973550;
+	font: 0.7em Trebuchet MS, Geneva, sans-serif;
+	padding: 15px 20px 0px 240px;
+	line-height: 1.4em;}
+
+#symmetry_experiments a {
+	color: #80263f;
+	text-decoration: none;}
+
+#symmetry_experiments a:hover {
+	text-decoration: underline;}
+
+
+/* ************************************ */
+/* Common To All Sections */
+
+#code_drawings, #woodcuts, #rollovers, #fonts, #bottom_nav {
+	margin-top: 60px;
+	padding-bottom: 30px;
+	width: 222px;}
+
+#code_drawings, #fonts {
+	float: left;
+	margin-right: 60px;}
+
+#woodcuts, #bottom_nav {
+	float: right;}
+
+#rollovers img, #code_drawings img, #fonts img, #woodcuts img {
+	display: block;
+	margin: 0px auto;
+	padding-bottom: 16px;
+	padding-top: 11px;}
+
+#rollovers h1, #code_drawings h1, #fonts h1, #woodcuts h1 {
+	padding-left: 21px;}
+
+#rollovers p, #code_drawings p, #fonts p, #woodcuts p {
+	font-family: Trebuchet MS, Geneva, sans-serif;
+	font-size: 0.7em;
+	padding: 15px 30px 0px 21px;
+	line-height: 1.4em;}
+
+
+/* ************************************ */
+
+
+#rollovers {
+	background-color: #fceeda;}
+
+#rollovers:hover {
+	background-color: #f8e5cf;}
+
+#rollovers h1 {
+	color: #75291d;
+	font: 0.9em Arial, Helvetica, sans-serif;}
+
+#rollovers p {
+	color: #a62f1d;}
+
+#rollovers a {
+	color: #a62f1d;
+	text-decoration: none;}
+
+#rollovers a:hover {
+	text-decoration: underline;}
+
+/* ************************************ */
+
+#code_drawings {
+	background-color: #edeadd;}
+
+#code_drawings:hover {
+	background-color: #e6e2d0;}
+
+#code_drawings h1 {
+	color: #493a3f;
+	font: normal 0.9em Lucida Sans Unicode, Lucida Grande, sans-serif;}
+
+#code_drawings p {
+	color: #6d5d62;}
+
+#code_drawings a {
+	color: #493a3f;
+	text-decoration: none;}
+
+#code_drawings a:hover {
+	text-decoration: underline;}
+
+/* ************************************ */
+
+#fonts {
+	background-color: #ebedd1;}
+
+#fonts:hover {
+	background-color: #e5e8c4;}
+
+#fonts h1 {
+	color: #212517;
+	font: bold 0.8em Verdana, Helvetica, sans-serif;}
+
+#fonts p {
+	color: #3c432b;}
+
+#fonts a {
+	color: #092a34;
+	text-decoration: none;}
+
+#fonts a:hover {
+	text-decoration: underline;}
+
+/* ************************************ */
+
+#woodcuts {
+	background-color: #ededed;}
+
+#woodcuts:hover {
+	background-color: #e6e6e6;}
+
+#woodcuts h1 {
+	color: #202e63;
+	font-size: 1em;
+	font-style: italic;
+	font-family: Palatino Linotype, Book Antigua, Palatino, serif;}
+
+#woodcuts p {
+	color: #32374b;}
+
+#woodcuts a {
+	color: #29222c;
+	text-decoration: none;}
+
+#woodcuts a:hover {
+	text-decoration: underline;}
+
+/* ************************************ */
+
+#bottom_nav {
+	text-align: right;}
+
+#bottom_nav a.obsolete_work {
+	padding-top: 70px;
+	font: 0.65em Trebuchet MS, Geneva, sans-serif;
+	color: #6d0000;	
+	display: block;
+	text-decoration: none;}
+
+#bottom_nav a:hover.obsolete_work {
+	text-decoration: underline;
+	color: #d14d32;}
+		
+a.bottomLink {
+	color: #6d0000;
+	text-decoration: none;
+	font: bold italic 1.5em Georgia;}
+
+a:hover.bottomLink  {
+	color: #d14d32;
+	text-decoration: underline;}
+	
+/* ************************************ */
+
+#footer	{
+	background-color: #fefced;
+	clear: both;
+	}

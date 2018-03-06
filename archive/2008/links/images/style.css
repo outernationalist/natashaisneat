@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+body {
+	background-color: #230a0a; 
+	background-image: url(pixel.gif);
+	color: #f0e8b5;
+	font: normal 1.6em Courier New, monospace;
+	}
+
+.descText {
+	font: normal 0.5em Trebuchet MS, sans-serif;
+	line-height: 1px;
+	}
+	
+.friendLink {	
+	float: left;
+	background-image: url(pixel.gif);
+	/*background-color: #915555;*/
+	background-position: 55% 79%;
+	padding: 10px;
+	width: 196px;
+	text-decoration: none;
+	}
+	
+.friendLink a {
+	color: #ca401a;
+	}
+	
+.inspirationLink {	
+	float: right;
+	background-color:#ca401a;	
+	background-image: url(pixel.gif);
+	background-position: 0% 20%;
+	padding: 10px;
+	/*width: 35%;*/
+	width: 196px;
+	text-decoration: none;
+	color: #ffca88;
+	}
+
+.inspirationLink a{
+	color: #e07b4f;
+	}
+	
+.creditLink {	
+	float: right;
+	background-color:#8a203d;
+	padding: 10px;
+	width: 191px;
+	text-decoration: none;	
+	background-image: url(pixel.gif);
+	/*background-position: 63% 69%;*/
+	background-position: 63% 99%;
+	}
+
+.inspirationLink:hover, .friendLink:hover, .creditLink:hover {
+	background-image: url(black.gif);
+	color: #ffe4b8;
+	}
+	
+a {color: #ee1e3c;
+	text-decoration: none;}
+	
+a:hover {
+	color: white;}
+
+/********************************************/
+
+.credit {
+	width: 1075px;
+	}
+	
+.friend {
+	width:864px;
+	display: block;
+	background-color: #ec5e0c;
+	background-image: url(pixel.gif);
+	background-position: 10% 80%;
+	float: left;
+	}
+	
+.inspiration {
+	width: 216px;
+	float: left;
+	background-image: url(pixel.gif);
+	background-position: 2% 13%;
+	background-color: #ee1e3c;
+	}
+
+/********************************************/
+	
+.creditLabel {
+	width: 1075px;
+	background-image: url(pixel.gif);
+	background-position: 0% 10%;
+	font-family: Times New Roman, serif;
+	font-style: italic;
+	}
+	
+.friendLabel {
+	width:864px;
+	margin-left: 10px;
+	display: block;
+	float: left;
+	font-family: Times New Roman, serif;
+	font-style: italic;
+	}
+	
+.inspirationLabel {
+	width: 216px;
+	float: left;
+	font-family: Times New Roman, serif;
+	font-style: italic;
+	}
+	
+/********************************************/
+	
+#home {
+	width: 100%;
+	background-color: #310402;
+	text-align: right;
+	padding: 10px 0px;
+	font: normal 0.4em Trebuchet MS, Trebuchet, sans-serif;
+	}
+	
+#home a {
+	padding: 20px;
+	}
+	
+#home a:hover {
+	color: #d380a5;
+	}
+

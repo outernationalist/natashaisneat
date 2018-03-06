@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+body {
+	background-color: #230a0a; 
+	color: #f0e8b5;
+	font: normal 0.8em Lucida Sans Unicode, Lucida Grande, sans-serif;
+	}
+	
+a {
+	text-decoration: none;
+	color: #ffe4b8;}
+
+.descText {
+	font: normal 11px Arial, sans-serif;
+	}
+	
+
+	
+/********************************************/
+.aa,.bb,.cc, .dd, .ee, .ff, .gg, .hh, .ii, .jj, .kk, .ll, .mm, .nn, .oo, .pp, .qq, .rr, .ss, .tt, .uu, .vv, .ww, .xx, .yy, .zz, .aaa, .bbb, .ccc, .ddd, .eee, .fff, .ggg, .hhh, .iii, .jjj {
+	padding: 20px;
+	width: 175px;
+	text-decoration: none;
+	float: left;
+	}
+	
+/********************************************/
+
+.credit {
+	margin: 0px auto;
+	width: 875px;
+	}
+	
+.friend {
+	display: block;
+	background-color: #ec5e0c;
+	background-image: url(images/pixel.gif);
+	background-position: 10% 80%;
+	float: left;
+	height: 600px;
+	}
+	
+.inspiration {
+	float: left;
+	background-image: url(images/pixel.gif);
+	background-position: 2% 13%;
+	background-color: #ee1e3c;
+	display: block;
+	height: 600px;
+	}
+
+/********************************************/
+
+	
+#home {
+	width: 100%;
+	background-color: #310402;
+	text-align: right;
+	padding: 15px 0px;
+	font: normal 10px Trebuchet MS, Trebuchet, sans-serif;
+	}
+	
+#home a {
+	color: #a55d6f;
+	padding: 20px;
+	}
+	
+#home a:hover {
+	color: #d380a5;
+	}
