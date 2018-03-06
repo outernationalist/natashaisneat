@@ -5,8 +5,8 @@ body {
   margin: 0;
   margin-top: 4%;
   margin-bottom: 7%;
-  color: #333;
-  background-color: white;}
+  color: #fff;
+  background-color: blue;}
 
 .main-container {
   padding-left: 5%;
@@ -18,30 +18,31 @@ h1, h2 {
   font-size: 40px;
   font-weight: bold;}
   
-  h1 {font-size: 43px;}
+ h1 {font-size: 43px;}
   
-  h2 {margin-top: 70px;}
+ h2 {margin-top: 70px;}
 
 a {
-  text-decoration: none;
-  border-bottom: 2px solid blue;
-  color: #1304d0;}
+	text-decoration: none;
+	border-bottom: 2px solid pink;
+	color: white;}
 
 a:hover, a:focus {
-  color: pink;
-  border-bottom: 2px solid #fb3fd2;
-  text-decoration: none;}
+	color: pink;
+	border-bottom: 2px solid #fb3fd2;
+	text-decoration: none;}
 
 p {
 	width: 400px;
-  margin-bottom: 1.5em;
-  line-height: 1.4em;}
+	margin-bottom: 1.5em;
+	line-height: 1.4em;}
 
-  .big {font-size: 30px;
-	  width: 800px;}
+.big {
+	font-size: 30px;
+	width: 800px;}
 	  
 .self-love {
-  color: #f3ade6;}
+	color: #f3ade6;}
 
 @media only screen and (max-device-width: 480px) {
 
