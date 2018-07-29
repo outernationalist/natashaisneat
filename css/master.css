@@ -1,35 +1,60 @@
 body {
-  font-family: "soleil";
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-size: 20px;
   font-weight: 200;
   margin: 0;
   margin-top: 4%;
   margin-bottom: 7%;
-  color: #fff;
-  background-color: blue;}
+  color: black;
+  background-color: white;}
+  
+.rainbow {
+      background: red;
+      background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+      background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+      background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+      background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+.redpink {
+	  background: #ff0000; /* Old browsers */
+	  background: #ff0000; /* Old browsers */
+	  background: -moz-linear-gradient(left, #ff0000 0%, #ff00ee 100%); /* FF3.6-15 */
+	  background: -webkit-linear-gradient(left, #ff0000 0%,#ff00ee 100%); /* Chrome10-25,Safari5.1-6 */
+	  background: linear-gradient(to right, #ff0000 0%,#ff00ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#ff00ee',GradientType=1 ); /* IE6-9 */
+	  -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }  
 
 .main-container {
   padding-left: 5%;
   max-width: 950px;
   margin: 0;}
-
-h1, h2 {
-  line-height: 1.4em;
-  font-size: 40px;
-  font-weight: bold;}
   
- h1 {font-size: 43px;}
-  
- h2 {margin-top: 70px;}
+ h1 {
+	 font-family: "cooper-black-std";
+	 font-size: 54px;
+  	line-height: 1em;}
 
+	h2 {
+		margin-top: 40px;
+	  line-height: 1.4em;
+	  font-size: 20px;
+	  font-weight: bold;}
+	  
+	  
 a {
 	text-decoration: none;
-	border-bottom: 2px solid pink;
-	color: white;}
+	border-bottom: 2px solid red;
+	color: red;}
 
 a:hover, a:focus {
-	color: pink;
-	border-bottom: 2px solid #fb3fd2;
+	color: magenta;
+	background: #ffe2ee;
+	border-bottom: 2px solid magenta;
 	text-decoration: none;}
 
 p {
@@ -56,7 +81,7 @@ p {
 
 /* mobile styles */
 @media (max-width: 500px) {
-	h1 {font-size: 40px;}
-	h2 {font-size: 30px;}
+	h1 {font-size: 47px;}
+	/*h2 {font-size: 20px;}*/
 	.big, p {width: auto;}
 }
